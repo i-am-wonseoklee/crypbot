@@ -20,7 +20,7 @@ class SimulatedFetcherTest(unittest.TestCase):
         """Test `initilaize`."""
         self.assertEqual(self.fetcher.ncandles, 10)
 
-    def test_get_candle(self):
-        """Test `get_candle`."""
-        candle = self.fetcher.get_candle()
+    def test_fetch_candle(self):
+        """Test `fetch_candle`."""
+        candle = self.fetcher.fetch_candle()
         self.assertEqual(candle["market"], "KRW-BTC")

@@ -55,7 +55,7 @@ class SimulatedFetcher(BaseFetcher):
             return False
         return True
 
-    def get_candle(self) -> Optional[Dict]:
+    def fetch_candle(self) -> Optional[Dict]:
         """Get a candle info.
 
         Returns:
