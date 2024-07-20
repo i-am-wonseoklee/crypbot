@@ -12,7 +12,7 @@ class SimulatedFetcherTest(unittest.TestCase):
         self.fetcher = simulated_fetcher.SimulatedFetcher()
         self.assertTrue(
             self.fetcher.initilaize(
-                period=1, market="KRW-BTC", till="2024-07-17T00:00:00+09:00", count=10
+                period=1, market="KRW-BTC", till="2024-07-17T00:00", count=10
             )
         )
 
