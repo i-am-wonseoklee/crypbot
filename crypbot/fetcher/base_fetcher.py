@@ -9,7 +9,7 @@ class BaseFetcher(metaclass=abc.ABCMeta):
     """Base class for fetcher."""
 
     @abc.abstractmethod
-    def get_candle(self) -> Optional[Dict]:
+    def fetch_candle(self) -> Optional[Dict]:
         """Return a current candle as a dictionary.
 
         Returns:
