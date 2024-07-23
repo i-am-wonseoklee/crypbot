@@ -1,7 +1,6 @@
 """Abstract class for fetcher that provides candle data."""
 
 import abc
-
 from typing import Dict, Optional
 
 

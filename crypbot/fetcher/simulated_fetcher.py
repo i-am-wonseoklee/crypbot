@@ -27,7 +27,7 @@ class SimulatedFetcher(BaseFetcher):
         Args:
             period (int): Candle period in minutes.
             market (str): Market name (e.g. KRW-BTC).
-            till (str): Time of the last candle in yyyy-MM-ddTHH:mm:ss:00+09:00 format.
+            till (str): Time of the last candle in yyyy-MM-ddTHH:mm:ss format (KST).
             count (int): Number of candles.
             timeout (int): Timeout in seconds.
 
